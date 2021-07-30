@@ -11,10 +11,10 @@ app.use(bodyParser.json())
 const path = require('path');
 var mysql = require('mysql')
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'dbuser',
-  password: 'password',
-  database: 'bta_database'
+    host: '3.108.42.23',
+    user: 'dbuser',
+    password: 'password',
+    database: 'bta_database'
 })
 
 connection.connect(function (err) {
